@@ -1,0 +1,2 @@
+# midtermproject
+შუალედური პროექტი
