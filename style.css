@@ -1063,7 +1063,6 @@ footer div:nth-child(3) h5 {
     header {
         padding: 24px;
         box-sizing: border-box;
-	align-items: none;
     }
     header .container {
         height: 100%;
