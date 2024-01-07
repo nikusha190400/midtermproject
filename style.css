@@ -1043,7 +1043,7 @@ main div:nth-child(5) .p3-1 .grid2 .crypto p {
 .side1 {
     border-left: 1px solid;
     border-color:  #6D62E6;
-    height: 232px;
+    height: fit-content;
     padding-left: 71px;
     box-sizing: border-box;
     margin-left: 17.03%;
@@ -1568,7 +1568,7 @@ footer div:nth-child(3) h5 {
     }
     .page4 .side2 {
         gap: 43.2px;
-        padding: 24px;
+        padding: 0 24px;
         box-sizing: border-box;
     }
     main div:nth-child(8) div:nth-child(2) div p {
