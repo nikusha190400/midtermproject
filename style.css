@@ -58,7 +58,7 @@ button {
     width: 7px;
 }
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to right, #c33764, #1d2671); 
+    background: linear-gradient(to bottom, #c33764, #4b1d9a, #020a50, #020b5d); 
     border-radius: 12px;
 }
 /* scroll bar END */
