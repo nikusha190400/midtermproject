@@ -1272,8 +1272,8 @@ footer div:nth-child(3) h5 {
     .star-m {
         display: inline-flex;
         position: absolute;
-        fill: #6D62E6;
-        filter: blur(3px);
+        background-color: #6D62E6;
+        filter: blur(1.5px);
         transform: rotate(-49.817deg);
         flex-shrink: 0;
         z-index: 100;
@@ -1281,7 +1281,7 @@ footer div:nth-child(3) h5 {
     .star-m1 {
         width: 2.722px;
         height: 2.722px;
-        margin-top: 59.22px;
+        margin-top: -20.78px;
         margin-left: 56.266%;
     }
     .star-m2 {
@@ -1293,7 +1293,7 @@ footer div:nth-child(3) h5 {
     .star-m3 {
         width: 5.443px;
         height: 5.443px;
-        margin-top: 110.99px;
+        margin-top: 30.99px;
         margin-left: 71.293%;
     }
     .star-m4 {
