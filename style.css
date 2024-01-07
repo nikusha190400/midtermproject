@@ -53,6 +53,15 @@ table {
 button {
     cursor: pointer;
 }
+/* scroll bar START */
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #c33764, #1d2671); 
+    border-radius: 12px;
+}
+/* scroll bar END */
 /*--font START--*/
 @font-face {
     font-family: Manrope;
@@ -196,6 +205,9 @@ header div .menu img {
 }
 /* ellipses END */
 /* stars START */
+.star-m {
+    display: none;
+}
 .star {
     position: absolute;
     background-color: #6D62E6;
@@ -426,6 +438,168 @@ transform: rotate(-131.041deg);
     width: 4px;
     height: 4px;
     transform: rotate(-26.107deg);
+}
+.star33 {
+    margin-top: 1255px;
+    margin-left: 8.333%;
+    width: 4px;
+    height: 4px;
+}
+.star34 {
+    margin-top: 1342px;
+    margin-left: 13.958%;
+    width: 4px;
+    height: 4px;
+}
+.star35 {
+    margin-top: 1369px;
+    margin-left: 6.666%;
+    width: 4px;
+    height: 4px;
+}
+.star36 {
+    margin-top: 1459px;
+    margin-left: 5.156%;
+    width: 8px;
+    height: 8px;
+}
+.star37 {
+    margin-top: 1669px;
+    margin-left: 10.468%;
+    width: 8px;
+    height: 8px;
+}
+.star38 {
+    margin-top: 1534px;
+    margin-left: 96.145%;
+    width: 8px;
+    height: 8px;
+}
+.star39 {
+    margin-top: 1695px;
+    margin-left: 96.718%;
+    width: 4px;
+    height: 4px;
+}
+.star40 {
+    margin-top: 1762px;
+    margin-left: 90.468%;
+    width: 4px;
+    height: 4px;
+}
+.star41 {
+    margin-top: 1881px;
+    margin-left: 95.937%;
+    width: 4px;
+    height: 4px;
+}
+.star42 {
+    margin-top: 2695px;
+    margin-left: 92.552%;
+    width: 4px;
+    height: 4px;
+}
+.star43 {
+    margin-top: 2782px;
+    margin-left: 98.177%;
+    width: 4px;
+    height: 4px;
+}
+.star44 {
+    margin-top: 2809px;
+    margin-left: 90.885%;
+    width: 4px;
+    height: 4px;
+}
+.star45 {
+    margin-top: 2899px;
+    margin-left: 89.375%;
+    width: 8px;
+    height: 8px;
+}
+.star46 {
+    margin-top: 3109px;
+    margin-left: 94.687%;
+    width: 8px;
+    height: 8px;
+}
+.star47 {
+    margin-top: 3191px;
+    margin-left: 5.677%;
+    width: 8px;
+    height: 8px;
+}
+.star48 {
+    margin-top: 3352px;
+    margin-left: 6.25%;
+    width: 4px;
+    height: 4px;
+}
+.star49 {
+    margin-top: 3419px;
+    margin-left: 0.208%;
+    width: 4px;
+    height: 4px;
+}
+.star50 {
+    margin-top: 3538px;
+    margin-left: 5.468%;
+    width: 4px;
+    height: 4px;
+}
+.star51 {
+    margin-top: 4169.86px;
+    margin-left: 11.408%;
+    width: 4px;
+    height: 4px;
+}
+.star52 {
+    margin-top: 4215.52px;
+    margin-left: 4.587%;
+    width: 4px;
+    height: 4px;
+}
+.star53 {
+    margin-top: 4302.96px;
+    margin-left: 8.745%;
+    width: 4px;
+    height: 4px;
+}
+.star54 {
+    margin-top: 4371.77px;
+    margin-left: 11.925%;
+    width: 8px;
+    height: 8px;
+}
+.star55 {
+    margin-top: 4396.25px;
+    margin-left: 24.018%;
+    width: 8px;
+    height: 8px;
+}
+.star56 {
+    margin-top: 4243.65px;
+    margin-left: 84.791%;
+    width: 8px;
+    height: 8px;
+}
+.star57 {
+    margin-top: 4238.47px;
+    margin-left: 93.62%;
+    width: 4px;
+    height: 4px;
+}
+.star58 {
+    margin-top: 4356.76px;
+    margin-left: 93.898%;
+    width: 4px;
+    height: 4px;
+}
+.star59 {
+    margin-top: 4450.06px;
+    margin-left: 93.932%;
+    width: 8px;
+    height: 8px;
 }
 /* stars END */
 /* main START */
@@ -754,7 +928,7 @@ width: 100%;
 .board {
     width: 1px;
     height: 100px;
-    background: linear-gradient(270deg, rgba(143, 140, 188, 0.00) -0.5%, rgba(143, 140, 188, 0.53) 52.36%, rgba(143, 140, 188, 0.00) 101%);
+    background: linear-gradient(360deg, rgba(143, 140, 188, 0.00) -0.5%, rgba(143, 140, 188, 0.53) 52.36%, rgba(143, 140, 188, 0.00) 101%);
 }
 /* page 2 END */
 /* page 3 START */
@@ -762,10 +936,6 @@ width: 100%;
     display: flex;
     margin-top: 138px;
     margin-left: 12.5%;
-}
-.p3-1 {
-    /* display: flex;
-    flex-direction: column; */
 }
 .p3-1 button {
     display: inline-flex;
@@ -1000,10 +1170,13 @@ footer {
     align-items: center;
     gap: 12px;
 }
-.flogo img {
+.flogo .web {
     width: 32px;
     height: 32px;
     flex-shrink: 0;
+}
+.flogo .mob {
+    display: none;
 }
 .flogo h3 span {
     color: rgba(255, 255, 255, 0.40);
@@ -1063,6 +1236,59 @@ footer div:nth-child(3) h5 {
 
 /* media screen START */
 @media screen and (max-width: 800px) {
+     /* ellipse */
+     .ellipse {
+        display: none;
+    }
+    .el-m1 {
+        display: inline-flex;
+        width: 309px;
+        height: 309px;
+        flex-shrink: 0;
+        border-radius: 309px;
+        background: rgba(109, 98, 230, 0.10);
+        filter: blur(100px);
+        margin-top: -125px;
+        margin-left: 31.733%;
+        position: absolute;
+        z-index: 1;
+    }
+    /* stars START */
+    .star-m {
+        display: inline-flex;
+        position: absolute;
+        fill: #6D62E6;
+        filter: blur(3px);
+        transform: rotate(-49.817deg);
+        flex-shrink: 0;
+        z-index: 100;
+    }
+    .star-m1 {
+        width: 2.722px;
+        height: 2.722px;
+        margin-top: 59.22px;
+        margin-left: 56.266%;
+    }
+    .star-m2 {
+        width: 2.722px;
+        height: 2.722px;
+        margin-top: -44.48px;
+        margin-left: 81.037%;
+    }
+    .star-m3 {
+        width: 5.443px;
+        height: 5.443px;
+        margin-top: 110.99px;
+        margin-left: 71.293%;
+    }
+    .star-m4 {
+        width: 2.722px;
+        height: 2.722px;
+        margin-top: 58.51px;
+        margin-left: 92.504%;
+    }
+    /* stars END */
+    
     header {
         padding: 24px;
         box-sizing: border-box;
@@ -1188,9 +1414,9 @@ footer div:nth-child(3) h5 {
         display: grid;
         grid-template-columns: auto auto;
         width: 100%;
-        height: 733px;
+        height: fit-content;
         gap: 32px 16px;
-        padding: 24px;
+        padding: 40px 24px 52px 24px;
         box-sizing: border-box;
         margin-top: 80px;
     }
@@ -1376,7 +1602,11 @@ footer div:nth-child(3) h5 {
     .flogo {
         gap: 9.99px;
     }
-    .flogo img {
+    .flogo .web {
+        display: none;
+    }
+    .flogo .mob {
+        display: block;
         width: 24px;
         height: 24px;
         flex-shrink: 0;
