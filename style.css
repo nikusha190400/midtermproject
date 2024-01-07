@@ -1668,7 +1668,7 @@ footer div:nth-child(3) h5 {
         flex-shrink: 0;
     }
     .line2 {
-        width: 327px;
+        width: 100%;
         margin-top: 24px;
     }
     footer .flink {
