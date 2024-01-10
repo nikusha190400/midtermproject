@@ -129,6 +129,7 @@ text-decoration-color: #ffffff00;
 transition: 0.5s;
 }
 header .container > nav > ul > a:hover {
+    color: #fff;
     text-decoration: underline;
     text-underline-offset: 40px;
     text-decoration-color: #FFF;
