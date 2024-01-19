@@ -93,7 +93,6 @@ header {
     position: fixed;
     backdrop-filter: blur(80px);
     top: 0;
-    position: absolute;
     z-index: 1000;
 }
 .container {
@@ -645,18 +644,22 @@ transform: rotate(-131.041deg);
 main {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 main .page1 {
     height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 261px;
+    column-gap: 13.593%;
+    padding-top: 185px;
+    box-sizing: border-box;
 }
 main .page1 .p1 {
     display: flex;
     flex-direction: column;
-    width: 612px;
+    width: fit-content;
+    height: fit-content;
 }
 h1 {
     width: 612px;
@@ -727,7 +730,7 @@ background-color: rgba(0, 0, 0, 0);
 .p2 {
     display: flex;
     flex-direction: column;
-    gap: 51px;
+    row-gap: 51px;
 }
 .shadow {
 width: 332px;
@@ -1092,6 +1095,8 @@ main div:nth-child(5) .p3-1 .grid2 .crypto p {
     padding-left: 71px;
     box-sizing: border-box;
     margin-left: 17.03%;
+    position: sticky;
+    top: 93px;
 }
 .side1 button {
     display: inline-flex;
@@ -1317,35 +1322,40 @@ footer div:nth-child(3) h5 {
         filter: blur(1.5px);
         transform: rotate(-49.817deg);
         flex-shrink: 0;
+        z-index: 999999;
     }
     .star-m1 {
         width: 2.722px;
         height: 2.722px;
-        margin-top: -20.78px;
+        margin-top: 61.3px;
         margin-left: 56.266%;
     }
     .star-m2 {
         width: 2.722px;
         height: 2.722px;
-        margin-top: -44.48px;
+        margin-top: 37.6px;
         margin-left: 81.037%;
     }
     .star-m3 {
         width: 5.443px;
         height: 5.443px;
-        margin-top: 30.99px;
+        margin-top: 115.15px;
         margin-left: 71.293%;
     }
     .star-m4 {
         width: 2.722px;
         height: 2.722px;
-        margin-top: 58.51px;
+        margin-top: 140.59px;
         margin-left: 92.504%;
     }
     /* stars END */
     header {
         padding: 24px;
         box-sizing: border-box;
+        max-width: 375px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     header .container {
         height: 100%;
