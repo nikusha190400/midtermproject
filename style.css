@@ -1293,9 +1293,9 @@ footer div:nth-child(3) h5 {
 /* footer END */
 
 /* media screen START */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 375px) {
     body {
-        max-width: 375px;
+        
     }
      /* ellipse */
      .ellipse {
@@ -1646,6 +1646,7 @@ footer div:nth-child(3) h5 {
         margin-left: 0;
         padding-left: 0;
         height: fit-content;
+        position: static;
     }
     .page4 .side1 button {
         padding: 4px 12px;
