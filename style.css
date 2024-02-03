@@ -1379,13 +1379,44 @@ footer div:nth-child(3) h5 {
         display: none;
     }
     header .container nav {
-        width: fit-content;
-    }
-    header .container nav ul {
         display: none;
+        flex-direction: column;
+        width: 87.2%;
+        height: fit-content;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        row-gap: 100px;
+        top: 300px;
+        background-color: #0D0D10;
+        backdrop-filter: blur(8000px);
+        margin: 0;
+        padding: 25px 0;
+        box-sizing: border-box;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, 0%);
     }
-    nav .log {
-        display: none;
+    .log {
+        margin: 0;
+        width: 100%;
+    }
+    .container nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    nav>ul>a {
+        text-decoration: none;
+    }
+    .activenav {
+        text-decoration: none !important;
+    }
+    nav > ul > a:hover {
+        text-decoration: none !important;
     }
     .burger-menu {
         display: block;
